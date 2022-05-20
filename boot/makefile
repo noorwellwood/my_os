@@ -12,3 +12,6 @@ clean:
 .PHONY: bochs
 bochs:
 	bochs -q
+
+.PHONY: all
+all: clean boot.bin master.img bochs
